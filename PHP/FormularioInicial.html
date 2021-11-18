@@ -1,12 +1,15 @@
 <html>
     <head>
         <title>Primer Formulario</title>
+        <link href="./css/FormularioInicial.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div id="form">
             <h1>Bienvenido a Correos</h1>
-            <p>Por favor escoja logearse o registrarse como un nuevo usuario</p>
+            <p>Por favor escoja</br><label id="registrarse">registrarse</label> como un nuevo usuario o <label id="logearse">logearse</label></p>
             <br>
-            <a href="RegistraseFormulario.html"><input type="button" name="registrase" value="Registrarse"></a>
-            <a href="LogearseFormulario.html"><input type="button" name="logearse" value="Logearse"></a>
+            <a class="href" href="RegistraseFormulario.html"><input type="button" name="registrase" value="Registrarse" class="button" id="register"></a>
+            <a class="href" href="LogearseFormulario.html"><input type="button" name="logearse" value="Logearse" class="button" id="login"></a>
+        </div>
     </body>
 </html>
